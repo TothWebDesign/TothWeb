@@ -1,22 +1,28 @@
 /* Unica One */
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
+h1,
+.about_paragraph,
+.about_more,
+.button_services,
+.topics
+{
+  font-family: "Unica One", serif;
+}
+
 h1 {
-  font-family: "Unica One", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
 }
 
-p{
-  font-family: "Unica One", serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 30px;
-}
 
+.topics_paragraph{
+  font-size: 1.2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
 .button_services{
-    font-family: "Unica One", serif;
     font-size: 23px;
 }
 

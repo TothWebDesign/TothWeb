@@ -6,7 +6,10 @@
     box-sizing: border-box;
     padding: 20px;
     border-bottom: 1px solid black;
-    margin-bottom: 50px;
+}
+
+.logo{
+    color: #F56416;
 }
 
 .button_services{

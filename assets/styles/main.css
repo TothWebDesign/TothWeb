@@ -2,26 +2,75 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .about_more{
-    width: 50vw;
-    text-align: center;
-    display: inline-block;
-    padding: 0.5em 1em;
-    background-color: #1a1a1a;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
+    gap: 20px;
 }
 
-p{text-align: center;}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
+}
+
+.about_paragraph{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 40px;
+
+    @media screen and (max-width: 760px) {font-size: 1.3em;}
+}
+
+ul{
+    padding: 40px;
+}
 
     li{
         text-align: center;
-        margin-bottom: 20px;
         list-style: none;
-        margin-right: 40px;
+        margin-bottom: 35px;
+        color: #333;
+        font-weight: 100;
+        @media screen and (max-width: 760px) {font-size: 1.1em;}
     }
-    
-}
+
+    .topics{
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        padding: 20px;
+        border: 1px solid #333;
+        color: #F56416;
+        transition: 0.2s ease-in-out;
+        @media screen and (max-width: 760px) {font-size: 0.9em;}
+    }
+
+    .topics:hover{
+        cursor: pointer;
+        background-color: #333;
+    }
+
+    .topic-name{
+        font-size: 1.2em;
+        margin: auto;
+    }
+
+    .topics_paragraph{
+        text-align: center;
+        width: 60vw;
+        display: none;
+    }
+
+    i{
+        font-size: 1.3em;
+        @media screen and (max-width: 350px) {
+            margin-right: 10px;
+        }
+    }
+
+    mark{
+        background-color: transparent;
+        color: #F56416;
+    }
+
 
